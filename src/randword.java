@@ -12,7 +12,6 @@ public class randword {
     for(int i = 0 ; i < x ; i++) {
         out = in.nextLine();
     }
-    out = out.substring(1);
     out = out.replace("é" , "e");
     out = out.replace("è" , "e");
     out = out.replace("ê" , "e");
