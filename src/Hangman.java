@@ -10,7 +10,7 @@ public class Hangman {
     int rand = (int)(Math.random() * range) + min;
         System.out.println(rand);
 
-    String ordet = randword.randomword(rand);
+    String ordet = randword.randomword(rand).toUpperCase();
         System.out.println(ordet);
 
     }
