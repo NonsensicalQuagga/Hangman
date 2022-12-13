@@ -3,17 +3,22 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class randword {
-    public static String randword(int x) throws FileNotFoundException{
+    public static String randomword(int x) throws FileNotFoundException{
 
-        String returns = "a";
-
+        String out = "";
             Scanner in = new Scanner(new File("Ord.txt"));
 
 
     for(int i = 0 ; i < x ; i++) {
-        returns = in.nextLine();
+        out = in.nextLine();
     }
-    return returns;
+    out = out.substring(1);
+    out = out.replace("é" , "e");
+    out = out.replace("è" , "e");
+    out = out.replace("ê" , "e");
+
+
+    return out;
 
     }
 

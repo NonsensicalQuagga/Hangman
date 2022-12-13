@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="might do something">
+    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="DOES SOMETHING">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hangman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/randword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/randword.java" afterDir="false" />
@@ -29,6 +29,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\Hangman" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hangman" />
@@ -70,7 +75,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1670940444169</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="DOES SOMETHING">
+      <created>1670941351624</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1670941351624</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +99,7 @@
     <MESSAGE value="project created" />
     <MESSAGE value="fixed stuff" />
     <MESSAGE value="might do something" />
-    <option name="LAST_COMMIT_MESSAGE" value="might do something" />
+    <MESSAGE value="DOES SOMETHING" />
+    <option name="LAST_COMMIT_MESSAGE" value="DOES SOMETHING" />
   </component>
 </project>
