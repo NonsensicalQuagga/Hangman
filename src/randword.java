@@ -8,7 +8,6 @@ public class randword {
         String out = "";
             Scanner in = new Scanner(new File("Ord.txt"));
 
-
     for(int i = 0 ; i < x ; i++) {
         out = in.nextLine();
     }
