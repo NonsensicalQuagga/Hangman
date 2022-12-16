@@ -1,4 +1,5 @@
 import java.io.FileNotFoundException;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Hangman {
@@ -18,8 +19,7 @@ public class Hangman {
         for (int i = 0; i < ordet.length(); i++) {
             underscore = underscore + "_";
         }
-        // ask teatcher how to make while loop end by itself
-        while (underscore != ordet) {
+        while (!Objects.equals(underscore, ordet)) {
             guess = in.nextLine().toUpperCase();
             String istrue = iscorrect.correct(ordet, guess, underscore);
             System.out.println(istrue);
