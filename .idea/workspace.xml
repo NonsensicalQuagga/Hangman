@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="to not get conflicting files">
+    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Added logic that makes sure that - can't be the first character of the word">
+      <change afterPath="$PROJECT_DIR$/src/iscorrect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/randword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/randword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hangman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
       <recent name="C:\code\Hangman" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.Hangman">
     <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hangman" />
       <module name="Hangman" />
@@ -68,8 +69,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
         <item itemvalue="Application.Hangman" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +143,13 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1671184736356</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="Added logic that makes sure that - can't be the first character of the word">
+      <created>1671192380070</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1671192380070</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +174,7 @@
     <MESSAGE value="Changed implementation of random number" />
     <MESSAGE value="in case i've changed anything" />
     <MESSAGE value="to not get conflicting files" />
-    <option name="LAST_COMMIT_MESSAGE" value="to not get conflicting files" />
+    <MESSAGE value="Added logic that makes sure that - can't be the first character of the word" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logic that makes sure that - can't be the first character of the word" />
   </component>
 </project>
