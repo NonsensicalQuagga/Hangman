@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="fixed stuff">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hangman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/randword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/randword.java" afterDir="false" />
-    </list>
+    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Changed implementation of random number" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +25,25 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\Hangman" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hangman" />
+      <module name="Hangman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Hangman" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,7 +65,43 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1670939138504</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="might do something">
+      <created>1670940444169</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1670940444169</updated>
+    </task>
+    <task id="LOCAL−00004" summary="DOES SOMETHING">
+      <created>1670941351624</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1670941351624</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Random word works.">
+      <created>1670953743235</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1670953743235</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Changed the word to always be uppercase">
+      <created>1670953970529</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1670953970529</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Fixed so that the first letter of the word is correct">
+      <created>1670954225733</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1670954225733</updated>
+    </task>
+    <task id="LOCAL−00008" summary="Changed implementation of random number">
+      <created>1671007514781</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1671007514781</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -67,6 +118,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project created" />
     <MESSAGE value="fixed stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed stuff" />
+    <MESSAGE value="might do something" />
+    <MESSAGE value="DOES SOMETHING" />
+    <MESSAGE value="Random word works." />
+    <MESSAGE value="Changed the word to always be uppercase" />
+    <MESSAGE value="Fixed so that the first letter of the word is correct" />
+    <MESSAGE value="Changed implementation of random number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed implementation of random number" />
   </component>
 </project>
