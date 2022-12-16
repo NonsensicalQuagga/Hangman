@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="fixed commit???">
+    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Changed implementation of random number">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hangd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hangd.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hangman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hangdgubbe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangdgubbe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +42,7 @@
       <recent name="C:\code\Hangman" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager">
     <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hangman" />
       <module name="Hangman" />
@@ -48,16 +50,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="Hangman" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
         <item itemvalue="Application.Hangman" />
       </list>
     </recent_temporary>
@@ -125,19 +119,7 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1671181772508</updated>
     </task>
-    <task id="LOCAL−00010" summary="Added file for &quot;img&quot; output">
-      <created>1671182131602</created>
-      <option name="number" value="LOCAL−00010" />
-      <option name="presentableId" value="LOCAL−00010" />
-      <updated>1671182131602</updated>
-    </task>
-    <task id="LOCAL−00011" summary="fixed commit???">
-      <created>1671182423227</created>
-      <option name="number" value="LOCAL−00011" />
-      <option name="presentableId" value="LOCAL−00011" />
-      <updated>1671182423227</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,8 +143,6 @@
     <MESSAGE value="Fixed so that the first letter of the word is correct" />
     <MESSAGE value="Changed implementation of random number" />
     <MESSAGE value="in case i've changed anything" />
-    <MESSAGE value="Added file for &quot;img&quot; output" />
-    <MESSAGE value="fixed commit???" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed commit???" />
+    <option name="LAST_COMMIT_MESSAGE" value="in case i've changed anything" />
   </component>
 </project>
