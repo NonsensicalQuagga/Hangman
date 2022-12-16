@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Changed implementation of random number">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="to not get conflicting files">
       <change beforePath="$PROJECT_DIR$/hangd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hangd.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hangman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hangdgubbe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangdgubbe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +116,13 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1671181772508</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="to not get conflicting files">
+      <created>1671184736356</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1671184736356</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +146,7 @@
     <MESSAGE value="Fixed so that the first letter of the word is correct" />
     <MESSAGE value="Changed implementation of random number" />
     <MESSAGE value="in case i've changed anything" />
-    <option name="LAST_COMMIT_MESSAGE" value="in case i've changed anything" />
+    <MESSAGE value="to not get conflicting files" />
+    <option name="LAST_COMMIT_MESSAGE" value="to not get conflicting files" />
   </component>
 </project>
