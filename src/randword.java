@@ -11,9 +11,11 @@ public class randword {
     for(int i = 0 ; i < x ; i++) {
         out = in.nextLine();
     }
+    String imbad = "-";
     out = out.replace("é" , "e");
     out = out.replace("è" , "e");
     out = out.replace("ê" , "e");
+    if (out.charAt(0) == imbad.charAt(0)) out = out.substring(1);
 
 
     return out;
