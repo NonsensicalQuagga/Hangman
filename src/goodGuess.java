@@ -15,10 +15,3 @@ public class goodGuess {
         return legalWord;
     }
 }
-// needs to be put in main
-// boolean legalWord;
-// String guessedLetters = "";
-// String guessedWords = "";
-// legalWord = goodguess.legalGuess(guess, ordet, guessedWords, guessedLetters);
-// if (!guessedLetters.contains(guess) && guess.length() == ordet.length()) guessedLetters = guessedLetters + guess;
-// if (!guessedWords.contains(guess) && !Objects.equals(guess, ordet) && guess.length() == ordet.length()) guessedWords = guessedWords + " " + guess;
