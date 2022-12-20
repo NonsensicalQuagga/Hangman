@@ -9,7 +9,10 @@ public class Hangman {
         int max = 122312;
         int min = 1;
         int range = max - min + 1;
-        String guess = "";
+        String guess;
+        boolean legalWord;
+        String guessedLetters = "";
+        String guessedWords = "";
 
         String ordet = randword.randomword((int)(Math.random() * range) + min).toUpperCase();
         while  (ordet.length()<2) ordet = randword.randomword((int)(Math.random() * range) + min).toUpperCase();
@@ -20,11 +23,20 @@ public class Hangman {
             underscore = underscore + "_";
         }
         while (!Objects.equals(underscore, ordet)) {
+            System.out.println(underscore);
             guess = in.nextLine().toUpperCase();
-            String istrue = iscorrect.correct(ordet, guess, underscore);
-            System.out.println(istrue);
-            // add more logic with underscore and istrue
-            underscore = istrue;
+            legalWord = goodGuess.legalGuess(guess, ordet, guessedLetters);
+            if (legalWord){
+                String isTrue = iscorrect.correct(ordet, guess, underscore);
+
+            System.out.println(isTrue);
+            // add more logic with underscore and isTrue
+            underscore = isTrue;
+            }
+
+            if (!guessedLetters.contains(guess) && guess.length() == 1) guessedLetters = guessedLetters + guess;
+            if (!guessedWords.contains(guess) && !Objects.equals(guess, ordet) && guess.length() == ordet.length()) guessedWords = guessedWords + " " + guess;
+            System.out.println(legalWord);
         }
     }
 }

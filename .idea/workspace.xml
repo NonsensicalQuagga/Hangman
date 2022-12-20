@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Added logic that makes sure that - can't be the first character of the word">
-      <change afterPath="$PROJECT_DIR$/src/iscorrect.java" afterDir="false" />
+    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Listened to intelliJ suggestion on how to fix an issue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hangman.java" afterDir="false" />
     </list>
@@ -49,6 +48,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="delete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="delete" />
+      <module name="Hangman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test" />
       <module name="Hangman" />
@@ -71,6 +77,7 @@
       <list>
         <item itemvalue="Application.Hangman" />
         <item itemvalue="Application.test" />
+        <item itemvalue="Application.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +156,19 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1671192380070</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="Added guessing and some logic with it">
+      <created>1671194031611</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1671194031611</updated>
+    </task>
+    <task id="LOCAL−00013" summary="Listened to intelliJ suggestion on how to fix an issue">
+      <created>1671194344772</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1671194344772</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +194,8 @@
     <MESSAGE value="in case i've changed anything" />
     <MESSAGE value="to not get conflicting files" />
     <MESSAGE value="Added logic that makes sure that - can't be the first character of the word" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added logic that makes sure that - can't be the first character of the word" />
+    <MESSAGE value="Added guessing and some logic with it" />
+    <MESSAGE value="Listened to intelliJ suggestion on how to fix an issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Listened to intelliJ suggestion on how to fix an issue" />
   </component>
 </project>
