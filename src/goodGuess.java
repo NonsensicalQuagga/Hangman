@@ -15,7 +15,7 @@ public class goodGuess {
         String abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ".toUpperCase();
               if (!abc.contains(guess.toUpperCase()) && guess.length() == 1) legalWord = false;
 
-        if (guess.length() == ordet.length() && !legalWord){
+        if (guess.length() == ordet.length() && !legalWord && !guessedWords.contains(guess)){
             for (int i = 0; i < guess.length(); i++){
                 if (!abc.contains(String.valueOf(guess.charAt(i)))){
                     legalWord = false;
