@@ -25,7 +25,7 @@ public class Hangman {
         while (!Objects.equals(underscore, ordet)) {
             System.out.println(underscore);
             guess = in.nextLine().toUpperCase();
-            legalWord = goodGuess.legalGuess(guess, ordet, guessedLetters);
+            legalWord = goodGuess.legalGuess(guess, ordet, guessedLetters, guessedWords);
             if (legalWord){
                 String isTrue = iscorrect.correct(ordet, guess, underscore);
 
@@ -34,8 +34,8 @@ public class Hangman {
             underscore = isTrue;
             }
 
-            if (!guessedLetters.contains(guess) && guess.length() == 1) guessedLetters = guessedLetters + guess;
-            if (!guessedWords.contains(guess) && !Objects.equals(guess, ordet) && guess.length() == ordet.length()) guessedWords = guessedWords + " " + guess;
+            if (!guessedLetters.contains(guess) && guess.length() == 1 && legalWord) guessedLetters = guessedLetters + guess;
+            if (!guessedWords.contains(guess) && !Objects.equals(guess, ordet) && guess.length() == ordet.length() && legalWord) guessedWords = guessedWords + " " + guess;
             System.out.println(legalWord);
         }
     }
