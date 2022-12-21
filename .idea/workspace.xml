@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Removed redundant code">
-      <change beforePath="$PROJECT_DIR$/src/underscoreCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/underscoreCreate.java" afterDir="false" />
+    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Removed some empty lines">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hangman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goodGuess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/goodGuess.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +238,13 @@
       <option name="presentableId" value="LOCAL−00023" />
       <updated>1671612531370</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL−00024" summary="Removed some empty lines">
+      <created>1671613487149</created>
+      <option name="number" value="LOCAL−00024" />
+      <option name="presentableId" value="LOCAL−00024" />
+      <updated>1671613487149</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +281,8 @@
     <MESSAGE value="Forgot to actually add the underscore function file" />
     <MESSAGE value="Renamed files and variables" />
     <MESSAGE value="Removed redundant code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed redundant code" />
+    <MESSAGE value="Removed empty lines" />
+    <MESSAGE value="Removed some empty lines" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed some empty lines" />
   </component>
 </project>
