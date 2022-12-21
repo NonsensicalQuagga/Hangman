@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Forgot to actually add the underscore function file">
-      <change afterPath="$PROJECT_DIR$/src/legalGuess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hangman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/goodGuess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/goodGuess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iscorrect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/randword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/randomWord.java" afterDir="false" />
+    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Removed redundant code">
       <change beforePath="$PROJECT_DIR$/src/underscoreCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/underscoreCreate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,7 +218,25 @@
       <option name="presentableId" value="LOCAL−00020" />
       <updated>1671608206379</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL−00021" summary="Renamed files and variables">
+      <created>1671612358751</created>
+      <option name="number" value="LOCAL−00021" />
+      <option name="presentableId" value="LOCAL−00021" />
+      <updated>1671612358751</updated>
+    </task>
+    <task id="LOCAL−00022" summary="Removed redundant code">
+      <created>1671612476250</created>
+      <option name="number" value="LOCAL−00022" />
+      <option name="presentableId" value="LOCAL−00022" />
+      <updated>1671612476250</updated>
+    </task>
+    <task id="LOCAL−00023" summary="Removed redundant code">
+      <created>1671612531370</created>
+      <option name="number" value="LOCAL−00023" />
+      <option name="presentableId" value="LOCAL−00023" />
+      <updated>1671612531370</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +271,8 @@
     <MESSAGE value="Added camelcase" />
     <MESSAGE value="Changed so underscore always displays special characters" />
     <MESSAGE value="Forgot to actually add the underscore function file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Forgot to actually add the underscore function file" />
+    <MESSAGE value="Renamed files and variables" />
+    <MESSAGE value="Removed redundant code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed redundant code" />
   </component>
 </project>
