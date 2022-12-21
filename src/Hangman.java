@@ -18,10 +18,8 @@ public class Hangman {
         while  (ordet.length()<2) ordet = randword.randomword((int)(Math.random() * range) + min).toUpperCase();
         System.out.println(ordet);
 
-        String underscore = "";
-        for (int i = 0; i < ordet.length(); i++) {
-            underscore = underscore + "_";
-        }
+        String underscore = underscoreCreate.u(ordet);
+
         while (!Objects.equals(underscore, ordet)) {
             System.out.println(underscore);
             guess = in.nextLine().toUpperCase();

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Fixed faulty logic with words">
+    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Added camelcase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/randword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/randword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hangman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iscorrect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iscorrect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="underscoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="underscoreTest" />
+      <module name="Hangman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,6 +85,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Hangman" />
+        <item itemvalue="Application.underscoreTest" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.delete" />
       </list>
@@ -193,7 +202,13 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1671544660850</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="Added camelcase">
+      <created>1671545372935</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1671545372935</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +240,7 @@
     <MESSAGE value="Removed redundant notes" />
     <MESSAGE value="Set which characters can be used to guess" />
     <MESSAGE value="Fixed faulty logic with words" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed faulty logic with words" />
+    <MESSAGE value="Added camelcase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added camelcase" />
   </component>
 </project>
