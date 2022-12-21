@@ -27,7 +27,6 @@ public class Hangman {
             if (legalWord){
                 String blank = goodGuess.u(theWord, guess, underscore);
 
-            System.out.println(blank);
             // add more logic with underscore and isTrue
             underscore = blank;
             }
