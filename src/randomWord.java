@@ -2,8 +2,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class randword {
-    public static String randomword(int x) throws FileNotFoundException{
+public class randomWord {
+    public static String u(int x) throws FileNotFoundException{
 
         String out = "";
             Scanner in = new Scanner(new File("Ord.txt"));

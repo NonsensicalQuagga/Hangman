@@ -14,26 +14,26 @@ public class Hangman {
         String guessedLetters = "";
         String guessedWords = "";
 
-        String ordet = randword.randomword((int)(Math.random() * range) + min).toUpperCase();
-        while  (ordet.length()<2) ordet = randword.randomword((int)(Math.random() * range) + min).toUpperCase();
-        System.out.println(ordet);
+        String theWord = randomWord.u((int)(Math.random() * range) + min).toUpperCase();
+        while  (theWord.length()<2) theWord = randomWord.u((int)(Math.random() * range) + min).toUpperCase();
+        System.out.println(theWord);
 
-        String underscore = underscoreCreate.u(ordet);
+        String underscore = underscoreCreate.u(theWord);
 
-        while (!Objects.equals(underscore, ordet)) {
+        while (!Objects.equals(underscore, theWord)) {
             System.out.println(underscore);
             guess = in.nextLine().toUpperCase();
-            legalWord = goodGuess.legalGuess(guess, ordet, guessedLetters, guessedWords);
+            legalWord = legalGuess.u(guess, theWord, guessedLetters, guessedWords);
             if (legalWord){
-                String isTrue = iscorrect.correct(ordet, guess, underscore);
+                String blank = goodGuess.u(theWord, guess, underscore);
 
-            System.out.println(isTrue);
+            System.out.println(blank);
             // add more logic with underscore and isTrue
-            underscore = isTrue;
+            underscore = blank;
             }
 
             if (!guessedLetters.contains(guess) && guess.length() == 1 && legalWord) guessedLetters = guessedLetters + guess;
-            if (!guessedWords.contains(guess) && !Objects.equals(guess, ordet) && guess.length() == ordet.length() && legalWord) guessedWords = guessedWords + " " + guess;
+            if (!guessedWords.contains(guess) && !Objects.equals(guess, theWord) && guess.length() == theWord.length() && legalWord) guessedWords = guessedWords + " " + guess;
             System.out.println(legalWord);
         }
     }

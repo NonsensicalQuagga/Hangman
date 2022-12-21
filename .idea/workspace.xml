@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Added camelcase">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Forgot to actually add the underscore function file">
+      <change afterPath="$PROJECT_DIR$/src/legalGuess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hangman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iscorrect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/iscorrect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goodGuess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/goodGuess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/iscorrect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/randword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/randomWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/underscoreCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/underscoreCreate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +211,19 @@
       <option name="presentableId" value="LOCAL−00018" />
       <updated>1671545372935</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL−00019" summary="Changed so underscore always displays special characters">
+      <created>1671608152511</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1671608152511</updated>
+    </task>
+    <task id="LOCAL−00020" summary="Forgot to actually add the underscore function file">
+      <created>1671608206379</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1671608206379</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +256,8 @@
     <MESSAGE value="Set which characters can be used to guess" />
     <MESSAGE value="Fixed faulty logic with words" />
     <MESSAGE value="Added camelcase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added camelcase" />
+    <MESSAGE value="Changed so underscore always displays special characters" />
+    <MESSAGE value="Forgot to actually add the underscore function file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forgot to actually add the underscore function file" />
   </component>
 </project>

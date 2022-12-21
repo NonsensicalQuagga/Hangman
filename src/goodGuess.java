@@ -1,30 +1,13 @@
-import java.util.Objects;
-
 public class goodGuess {
-    public static boolean legalGuess(String guess, String ordet, String guessedLetters , String guessedWords) {
-        boolean legalWord = (guessedLetters.length() == 0 && guess.length() == 1) || Objects.equals(guess, ordet);
-        if (guess.length() == 1 && guessedLetters.length()>0) {
-            for (int i = 0; i < guessedLetters.length(); i++) {
-                if (guessedLetters.charAt(i) == guess.charAt(0)){
-                    legalWord = false;
-                    break;
-                }
-                else legalWord = true;
-            }
-        }
-        String abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ".toUpperCase();
-              if (!abc.contains(guess.toUpperCase()) && guess.length() == 1) legalWord = false;
+    public static String u(String theWord, String guess, String underscore){
 
-        if (guess.length() == ordet.length() && !legalWord && !guessedWords.contains(guess)){
-            for (int i = 0; i < guess.length(); i++){
-                if (!abc.contains(String.valueOf(guess.charAt(i)))){
-                    legalWord = false;
-                    break;
-                }
-                else legalWord = true;
-            }
+        String blank = "";
+        String imBad = "_";
+        for (int i = 0  ; i < theWord.length(); i++){
+            if (theWord.charAt(i) == guess.charAt(0))blank = blank + guess;
+            if (theWord.charAt(i) != guess.charAt(0) && underscore.charAt(i) ==imBad.charAt(0)) blank = blank + "_";
+            if (theWord.charAt(i) != guess.charAt(0) && underscore.charAt(i) != imBad.charAt(0))blank = blank + underscore.charAt(i);
         }
-
-        return legalWord;
+        return blank;
     }
 }
