@@ -33,7 +33,7 @@ public class Hangman {
 
             if (!guessedLetters.contains(guess) && guess.length() == 1 && legalWord) guessedLetters = guessedLetters + guess;
             if (!guessedWords.contains(guess) && !Objects.equals(guess, theWord) && guess.length() == theWord.length() && legalWord) guessedWords = guessedWords + " " + guess;
-            System.out.println(legalWord);
+
         }
     }
 }
