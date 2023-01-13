@@ -11,7 +11,7 @@ public class goodGuess {
             }
         }
         if (guess.length() == theWord.length() && guess.equals(theWord)) blank = guess;
-        else blank = underscore;
+        if (blank.length() != underscore.length()) blank = underscore;
         return blank;
     }
 }
