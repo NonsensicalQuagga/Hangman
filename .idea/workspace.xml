@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="to not get conflicting files">
+    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Removed some empty lines">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hangdgubbe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangdgubbe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hangman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hangdgubbe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hangdGubbe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -41,7 +43,7 @@
       <recent name="C:\code\Hangman" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hangdgubbe">
+  <component name="RunManager" selected="Application.Hangman">
     <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hangman" />
       <module name="Hangman" />
@@ -49,17 +51,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hangdgubbe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hangdgubbe" />
+    <configuration name="delete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="delete" />
       <module name="Hangman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="Hangman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="underscoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="underscoreTest" />
+      <module name="Hangman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.hangdgubbe" />
         <item itemvalue="Application.Hangman" />
+        <item itemvalue="Application.underscoreTest" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +161,91 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1671184736356</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="Added logic that makes sure that - can't be the first character of the word">
+      <created>1671192380070</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1671192380070</updated>
+    </task>
+    <task id="LOCAL−00012" summary="Added guessing and some logic with it">
+      <created>1671194031611</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1671194031611</updated>
+    </task>
+    <task id="LOCAL−00013" summary="Listened to intelliJ suggestion on how to fix an issue">
+      <created>1671194344772</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1671194344772</updated>
+    </task>
+    <task id="LOCAL−00014" summary="Added logic that checks whether the guess is good.">
+      <created>1671540199142</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1671540199142</updated>
+    </task>
+    <task id="LOCAL−00015" summary="Removed redundant notes">
+      <created>1671540761174</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1671540761174</updated>
+    </task>
+    <task id="LOCAL−00016" summary="Set which characters can be used to guess">
+      <created>1671544519351</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1671544519351</updated>
+    </task>
+    <task id="LOCAL−00017" summary="Fixed faulty logic with words">
+      <created>1671544660850</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1671544660850</updated>
+    </task>
+    <task id="LOCAL−00018" summary="Added camelcase">
+      <created>1671545372935</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1671545372935</updated>
+    </task>
+    <task id="LOCAL−00019" summary="Changed so underscore always displays special characters">
+      <created>1671608152511</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1671608152511</updated>
+    </task>
+    <task id="LOCAL−00020" summary="Forgot to actually add the underscore function file">
+      <created>1671608206379</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1671608206379</updated>
+    </task>
+    <task id="LOCAL−00021" summary="Renamed files and variables">
+      <created>1671612358751</created>
+      <option name="number" value="LOCAL−00021" />
+      <option name="presentableId" value="LOCAL−00021" />
+      <updated>1671612358751</updated>
+    </task>
+    <task id="LOCAL−00022" summary="Removed redundant code">
+      <created>1671612476250</created>
+      <option name="number" value="LOCAL−00022" />
+      <option name="presentableId" value="LOCAL−00022" />
+      <updated>1671612476250</updated>
+    </task>
+    <task id="LOCAL−00023" summary="Removed redundant code">
+      <created>1671612531370</created>
+      <option name="number" value="LOCAL−00023" />
+      <option name="presentableId" value="LOCAL−00023" />
+      <updated>1671612531370</updated>
+    </task>
+    <task id="LOCAL−00024" summary="Removed some empty lines">
+      <created>1671613487149</created>
+      <option name="number" value="LOCAL−00024" />
+      <option name="presentableId" value="LOCAL−00024" />
+      <updated>1671613487149</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +270,20 @@
     <MESSAGE value="Changed implementation of random number" />
     <MESSAGE value="in case i've changed anything" />
     <MESSAGE value="to not get conflicting files" />
-    <option name="LAST_COMMIT_MESSAGE" value="to not get conflicting files" />
+    <MESSAGE value="Added logic that makes sure that - can't be the first character of the word" />
+    <MESSAGE value="Added guessing and some logic with it" />
+    <MESSAGE value="Listened to intelliJ suggestion on how to fix an issue" />
+    <MESSAGE value="Added logic that checks whether the guess is good." />
+    <MESSAGE value="Removed redundant notes" />
+    <MESSAGE value="Set which characters can be used to guess" />
+    <MESSAGE value="Fixed faulty logic with words" />
+    <MESSAGE value="Added camelcase" />
+    <MESSAGE value="Changed so underscore always displays special characters" />
+    <MESSAGE value="Forgot to actually add the underscore function file" />
+    <MESSAGE value="Renamed files and variables" />
+    <MESSAGE value="Removed redundant code" />
+    <MESSAGE value="Removed empty lines" />
+    <MESSAGE value="Removed some empty lines" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed some empty lines" />
   </component>
 </project>

@@ -1,12 +1,7 @@
-import java.util.Arrays;
-
-public class hangdgubbe {
+public class hangdGubbe {
     public static boolean art(int antalFel){
-        // gör en funktion som tar input 1 - 11 och ger ut en "bild"
 
-
-
-if (antalFel == 1){
+        if (antalFel == 1){
     System.out.println("       _________");
     System.out.println("      /         \\");
     System.out.println("     /           \\");
