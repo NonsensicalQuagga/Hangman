@@ -46,11 +46,11 @@ public class Hangman {
             }
             for (int i = 0; i < 3; i++) {
                 System.out.println("");
+            }
                 hangdGubbe.art(wrongGuessCounter);
                 System.out.printf(guessedLetters2);
                 System.out.println(" " + guessedWords);
                 System.out.println("");
-            }
         }
         if (wrongGuessCounter == 11){
             for (int i = 0; i < 10; i++){ System.out.println("");}
