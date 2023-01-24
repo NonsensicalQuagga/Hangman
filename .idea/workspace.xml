@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Fixed bugs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pmAlvin.md" beforeDir="false" afterPath="$PROJECT_DIR$/postMortemAlvin.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="b3055f4a-7d76-4bdf-b7a3-2dec77ba9802" name="Changes" comment="Updated pm">
+      <change beforePath="$PROJECT_DIR$/postMortemAlvin.md" beforeDir="false" afterPath="$PROJECT_DIR$/postMortemAlvin.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +254,13 @@
       <option name="presentableId" value="LOCAL−00026" />
       <updated>1673962507920</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL−00027" summary="Updated pm">
+      <created>1674565122952</created>
+      <option name="number" value="LOCAL−00027" />
+      <option name="presentableId" value="LOCAL−00027" />
+      <updated>1674565122952</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +275,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed stuff" />
     <MESSAGE value="might do something" />
     <MESSAGE value="DOES SOMETHING" />
     <MESSAGE value="Random word works." />
@@ -296,6 +299,7 @@
     <MESSAGE value="Removed some empty lines" />
     <MESSAGE value="Finalized project" />
     <MESSAGE value="Fixed bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs" />
+    <MESSAGE value="Updated pm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated pm" />
   </component>
 </project>
